@@ -1,4 +1,4 @@
-file = open("inputs/day5.txt", "r")
+file = open("../inputs/day5.txt", "r")
 
 line_segments = []
 

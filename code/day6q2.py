@@ -1,4 +1,4 @@
-file = open("inputs/day6.txt", "r")
+file = open("../inputs/day6.txt", "r")
 
 number_line = file.readline()
 lanternfishes = number_line.split(",")

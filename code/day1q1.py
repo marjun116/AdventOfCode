@@ -1,5 +1,5 @@
 # open file
-file = open("inputs/day1.txt", "r")
+file = open("../inputs/day1.txt", "r")
 
 # store each line as int in list
 lines = [int(line) for line in file]

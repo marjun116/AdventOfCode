@@ -1,4 +1,4 @@
-file = open("inputs/day4.txt", "r")
+file = open("../inputs/day4.txt", "r")
 
 number_line = file.readline()
 called_nums = number_line.split(",")
@@ -25,7 +25,7 @@ def point_complete_at(board):
                         return index
 
 best_board = None
-best_score = 1999
+best_score = -1
 print(called_nums)
 best_board_index = 0
 curr_index = 0
@@ -48,7 +48,7 @@ while True:
         lines_read_in_game += 1
 
     curr = point_complete_at(current_board.copy())
-    if curr < best_score:
+    if curr > best_score:
         best_board = current_board.copy()
         best_score = curr
         print("setting best score to:", best_score)

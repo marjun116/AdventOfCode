@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-file = open("inputs/day3.txt", "r")
+file = open("../inputs/day3.txt", "r")
 
 lines = file.readlines()
 

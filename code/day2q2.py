@@ -1,4 +1,4 @@
-file = open("inputs/day2.txt", "r")
+file = open("../inputs/day2.txt", "r")
 
 lines = file.readlines()
 
